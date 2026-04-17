@@ -7,3 +7,6 @@ We have 4 different components to this repo:
 * `model` for the models that we had tried. This included the Support Vector Machine, Logistic Regression, Random Forest, Naive Bayes, K-Nearest Neighbours, Gradient-Boosted Tree and the ensemble model.
 * `data_analysis`for the code used to analyse the dataset for the report.
 * `advanced_ml` for the 2 advanced ML topics included in the report, namely, LIME and VAE for synthetic generation.
+
+## Dataset
+The dataset used was the _Diabetes prediction dataset_ by the user _Mohammed Mustafa_ on Kaggle. It can be found in `diabetes_prediction_dataset.csv`. The link can be found [here](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset/data)
