@@ -15,7 +15,7 @@ from sklearn.pipeline import Pipeline
 
 import os
 
-df = pd.read_csv('datasets/diabetes_prediction_dataset.csv')
+df = pd.read_csv('data/diabetes_prediction_dataset.csv')
 
 def save_plot(filename, plot_fn):
     fig, ax = plt.subplots(figsize=(6, 4))
