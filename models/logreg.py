@@ -16,17 +16,13 @@ import joblib
 import warnings
 warnings.filterwarnings('ignore')
 
-# ---------------------------------------------
-
-df = pd.read_csv('diabetes_prediction_dataset.csv')
-aug = pd.read_csv('datasets\synthetic_diabetes_data_positive.csv')
+df = pd.read_csv('data/diabetes_prediction_dataset.csv')
+aug = pd.read_csv('data/synthetic_diabetes_data_positive.csv')
 
 df = pd.concat([df, aug], ignore_index=True)
 
 print(f"Dataset shape: {df.shape}")
 print("\nClass balance:\n", df['diabetes'].value_counts(normalize=True))
-
-# ---------------------------------------------
 
 df['gender_enc']  = LabelEncoder().fit_transform(df['gender'])
 df['smoking_enc'] = LabelEncoder().fit_transform(df['smoking_history'])
