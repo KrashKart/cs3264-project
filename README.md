@@ -4,7 +4,7 @@ This repository contains code used for Group 13's CS3264 Project involving Diabe
 ## Components
 We have 4 different components to this repo:
 * `data` for the original (`diabetes_prediction_dataset.csv`) and augmented datasets (`synthetic_diabetes_data.csv` for 20k positive and negative examples, and `synthetic_diabetes_data_positive.csv` for 20k positive examples) that we had used.
-* `model` for the models that we had tried. This included the Support Vector Machine, Logistic Regression (`log_reg.py`), Random Forest (`rf.py`), Naive Bayes (`naive_bayes.py`), K-Nearest Neighbours, Gradient-Boosted Tree (`gbt.ipynb`) and the ensemble model (`ensemble.py`).
+* `model` for the models that we had tried. This included the Support Vector Machine (`SVM.ipynb`), Logistic Regression (`log_reg.py`), Random Forest (`rf.py`), Naive Bayes (`naive_bayes.py`), K-Nearest Neighbours (`KNN.ipynb`), Gradient-Boosted Tree (`gbt.ipynb`) and the ensemble model (`ensemble.py`).
 * `data_analysis`for the code used to analyse the dataset for the report. We performed univariate data analysis (`data_analysis_univariate.py`) and bivariate data analysis (`data_analysis_bivariate.py`).
 * `advanced_ml` for the 2 advanced ML topics included in the report, namely, LIME (`lime.ipynb`) and VAE for synthetic generation (`vae.py`).
 
